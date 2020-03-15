@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MAPActivity">
+
+    <fragment
+        android:id="@+id/mapid"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/bl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/maptoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/rellayout"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/card_bg"
+        android:elevation="10dp"
+        app:layout_constraintTop_toTopOf="@id/bl"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:id="@+id/input_search"
+            android:background="@null"
+            android:text="Click on the red indicater then the map icon that will appear"
+
+            />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

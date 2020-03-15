@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "712518569992",
+    "firebase_url": "https://mads-2900b.firebaseio.com",
+    "project_id": "mads-2900b",
+    "storage_bucket": "mads-2900b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712518569992:android:ce6089a8e5bba5ad",
+        "android_client_info": {
+          "package_name": "com.example.mads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712518569992-9g68am4pj98mcclp5l94t6sm57tpfi7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5xU_-v-NcD1kfsLNqqRPLtDqhaohtWLo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
